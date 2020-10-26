@@ -5,10 +5,12 @@ I and my childhood friend Martha always dreamed about changing the world, so whe
 
 
 ## Resources
-* Software/Tools: Visual Studio Code (v1.49.2), Jupyter Notebook
-* Language(s): Python
+* Software/Tools: Visual Studio Code (v1.49.2), Anaconda 8, Jupyter Notebook
+* Language(s): Python 3.7.6
 * Libraries: Pandas, sklearn, plotly, hvplot
 * Data Source(s): https://github.com/Govind-Patwal/Cryptocurrencies/blob/main/crypto_data.csv
 
-## Analysis
-A README.md that includes the purpose of the repository and short description of what was accomplished. Although there is no graded written analysis for this challenge, it is encouraged and good practice to add a brief description of your project.
+## Result
+* We found that this challenge was best apprached using a **unsupervised machine learning** algorithm.
+* Between the **Hierarchical Clustering** and **K-means** classification algorithm, we dediced to go with the K-means classification algorithm
+* The Elbow Curve showed that the appropriate cluster size is **4**
